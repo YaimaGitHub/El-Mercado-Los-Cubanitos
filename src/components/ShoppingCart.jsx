@@ -28,7 +28,7 @@ export default function ShoppingCart()
                 <Offcanvas.Body>
                     {
                         cartQuantity <= 0 ?
-                            <h2 style={{textAlign: 'center'}}>Your cart is empty 😥</h2> :
+                            <h2 style={{textAlign: 'center'}}>Tu carrito está vacío 😥</h2> :
                             <Stack gap='2'>
                                 {cartItems.map((item) => <CartItem key={'card-item-' + item.id} {...item}></CartItem>)}
 
