@@ -13,7 +13,7 @@ function Navbar()
     return (
         <NavbarBs sticky='top' className='bg-white shadow-sm'>
             <Container>
-                <Image className='logo' width='115px' src='./imgs/logo.png'></Image>
+                <Image className='logo' width='300px' src='./imgs/logo.png'></Image>
                 <Nav className='me-auto '>
                     <Nav.Link as={NavLink} to='/'>Tienda</Nav.Link>
                     <Nav.Link as={NavLink} to='/admin'>Admin</Nav.Link>
