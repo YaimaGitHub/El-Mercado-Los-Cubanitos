@@ -14,7 +14,7 @@ export default function Footer()
                     boxShadow: '0 0.0 0.5rem rgba(0, 0, 0, 0.3)'
                 }}>
 
-                <Image src='./imgs/logo-white.svg' width='100px'></Image>
+                <Image src='./imgs/logo.png' width='100px'></Image>
                 <a href='https://kinangh98.github.io/' className="fw-medium text-white">© 2024 Ahmed Kinan Ghbash</a>
             </div>
         </footer>
