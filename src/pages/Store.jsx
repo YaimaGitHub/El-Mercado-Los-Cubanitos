@@ -21,7 +21,7 @@ export default function Store()
     const isMobile = useMediaQuery({query: '(max-width: 420px)'})
 
     const searchBar = <ReactSearchAutocomplete
-        placeholder='Search store'
+        placeholder='Buscar tienda'
         className='search-bar'
         key='storeSearchBar'
         styling={{

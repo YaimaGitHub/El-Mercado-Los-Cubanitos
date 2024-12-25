@@ -15,7 +15,7 @@ function Navbar()
             <Container>
                 <Image className='logo' width='115px' src='./imgs/logo.svg'></Image>
                 <Nav className='me-auto '>
-                    <Nav.Link as={NavLink} to='/'>Store</Nav.Link>
+                    <Nav.Link as={NavLink} to='/'>Tienda</Nav.Link>
                     <Nav.Link as={NavLink} to='/admin'>Admin</Nav.Link>
                 </Nav>
                 {
