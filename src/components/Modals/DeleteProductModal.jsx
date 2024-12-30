@@ -62,7 +62,7 @@ export default function DeleteProductModal({modalIsOpen, closeModal, itemToUpdat
             {
                 type: 'success',
                 autoClose: 1500,
-                render: 'Product deleted successfully!',
+                render: '¡Producto eliminado exitosamente!',
                 transition: Flip,
                 closeButton: true
             })
